@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TechDemo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{F7470625-ACA1-483F-B73F-665C42D1796B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TechDemo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TechDemoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{2CB2A860-833D-41EE-A243-DCA3A3CBDB97}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{D643B9A4-0319-461C-9111-6B02712E1AF1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ArrowPlugin">
+			<UniqueIdentifier>{688835DA-32DA-46E4-9499-766DA293B0ED}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ArrowPlugin\Source">
+			<UniqueIdentifier>{75729F42-C401-42C9-A2C7-AA9D3A0868B9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ArrowPlugin\Source\ArrowPlugin">
+			<UniqueIdentifier>{5CB40CE9-BC22-46B9-BA45-7E016C53EBF4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\ArrowPlugin.Build.cs">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\ArrowPlugin\Source\ArrowPlugin\Classes">
+			<UniqueIdentifier>{D401DEAF-582D-4876-B296-43F5D2281C3E}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Classes\ArrowPluginActor.h">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Classes\ArrowPluginMeshActor.h">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\ArrowPlugin\Source\ArrowPlugin\Private">
+			<UniqueIdentifier>{9D29291A-DD84-4E8D-87DB-D69121358B8F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Private\ArrowPlugin.cpp">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Private\ArrowPluginActor.cpp">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Private\ArrowPluginMeshActor.cpp">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Private\ArrowPluginPrivatePCH.h">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\ArrowPlugin\Source\ArrowPlugin\Public">
+			<UniqueIdentifier>{83674BF8-C5C5-4B73-89F4-B4C81DD69B4A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\ArrowPlugin\Source\ArrowPlugin\Public\ArrowPlugin.h">
+			<Filter>Plugins\ArrowPlugin\Source\ArrowPlugin\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\ArrowPlugin\ArrowPlugin.uplugin">
+			<Filter>Plugins\ArrowPlugin</Filter>
+		</None >
+		<Filter Include="Plugins\ArrowPlugin\Resources">
+			<UniqueIdentifier>{C254487B-20C2-4D88-B716-617CE178563B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ArrowPlugin\Resources\Icon128.png">
+			<Filter>Plugins\ArrowPlugin\Resources</Filter>
+		</None >
+		<Filter Include="Source\TechDemo">
+			<UniqueIdentifier>{AF2EB34F-5C8A-4FB3-8067-E1A4320468A7}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TechDemo\BaseCharacter.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\BaseCharacter.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\BTDecorator_ClearValueOnFinish.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\BTDecorator_ClearValueOnFinish.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\BTTask_PerformAttack.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\BTTask_PerformAttack.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\BTTask_SwapPosition.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\BTTask_SwapPosition.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\EnvQueryGenerator_GetAllSentries.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\EnvQueryGenerator_GetAllSentries.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\Feather.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\Feather.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\Interactable.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\Interactable.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\InteractableDoors.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\InteractableDoors.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\InteractableLadder.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\InteractableLadder.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\InteractableTrapdoor.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\InteractableTrapdoor.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\Item.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\Item.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\Quest.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\Quest.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\QuestOverlay.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\QuestOverlay.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\QuestWidget.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\QuestWidget.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\SentryAIController.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\SentryAIController.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\SentryCharacter.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\SentryCharacter.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\SkillTree.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\SkillTree.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\SkillTreeNode.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\SkillTreeNode.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\SkillTreeNodeConnector.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\SkillTreeNodeConnector.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\StunItem.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\StunItem.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\TechDemo\TechDemo.Build.cs">
+			<Filter>Source\TechDemo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemo.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemo.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoArrow.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoArrow.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoArrowExploding.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoArrowExploding.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoArrowSleepy.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoArrowSleepy.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoArrowSplatering.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoArrowSplatering.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoCharacter.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoCharacter.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoCoverActor.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoCoverActor.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoGameMode.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoGameMode.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoHUD.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoHUD.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoMeleeWeapon.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoMeleeWeapon.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoPlayerController.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoPlayerController.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TechDemo\TechDemoWeapon.cpp">
+			<Filter>Source\TechDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TechDemo\TechDemoWeapon.h">
+			<Filter>Source\TechDemo</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

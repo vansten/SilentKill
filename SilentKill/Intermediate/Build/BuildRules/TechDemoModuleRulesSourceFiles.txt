@@ -1,0 +1,4 @@
+W:\SilentKill\SilentKill\Source\TechDemo\TechDemo.Build.cs
+W:\SilentKill\SilentKill\Plugins\ArrowPlugin\Source\ArrowPlugin\ArrowPlugin.Build.cs
+W:\SilentKill\SilentKill\Source\TechDemo.Target.cs
+W:\SilentKill\SilentKill\Source\TechDemoEditor.Target.cs

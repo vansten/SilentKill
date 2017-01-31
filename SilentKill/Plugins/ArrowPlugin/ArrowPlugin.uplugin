@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "ArrowPlugin",
+	"Description": "Manages aiming stage of every FPS, TPS, FPP, TPP. Can trace a bullet/arrow/projectile path and render it with given material and accuracy",
+	"Category": "Gameplay",
+	"CreatedBy": "Keyboard Facerollers - vansten",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ArrowPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
